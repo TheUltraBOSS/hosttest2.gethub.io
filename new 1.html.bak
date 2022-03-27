@@ -1,0 +1,51 @@
+<html>
+	<head>
+	<title> atelier3 </title>
+	<link rel= "stylesheet" href ="atl3.css"/>
+	</head>
+	<body>
+	<h2 class="A"><u> CHAPITRE1 : INTRODUCTION </u> </h2> 
+	<h1> 
+		<ol type= "I" start = "2">
+			<li><u><B> La balise pré-formatage et les caractères spécieaux </B></u></li>
+		</ol>	
+	</h1>
+		<h2><u><B> La balise pré-formatage </B></u> </h2>
+	    <pre>Nom de la balise  |symbole| définition |
+---------------------------------------------------------------------
+pré-formatage     | PRE |   Permet de conserver le formatage de texte (mise en page, espacement, saut de ligne, …) tel qu’il a été saisi dans le fichier</pre>
+		<h2><u><B> les caractères spécieaux </B></u> </h2>
+			<pre> Pour différentes raisons le jéu de caractère utilisé pour stocker les documents HTML est le code ASCII standard sur 7 bits.
+Ce code permet de décrire le jeu de 128 caractères de base comprenant les lettres majuscules et minuscules, les chiffres et les signes
+ de ponctuation. Les caractères accentués sont codés dans des jeux de caractères étendus à 8 bits.
+ La principale raison qui aujourd'hui oblige à continuer d'utiliser le code ASCCI 7 bit et non un code étendu est que tous
+ les ordinateurs n'utilisent pas les mêmes codes étendus (caractères 128 à 255).
+ Les machines sous Windows et la plupart des machines Unix utilisent maintenant le code dit ISO-LATIN1, mais les PC sous DOS, les MACintosh et différents autres types
+ d'ordinateurs utilisent d'autres codes. 
+ Pour écrire des documents susceptibles d'être consultés sans problèmes quelque soit le type
+ de système du client il est nécessaire de coder les caractères accentués en utilisant un codage un peu particulier.
+ On indique entre des caractères & et ; la lettre et l'accent.
+ Ainsi le caractère é doit-il être représenté par la chaine .
+Mais les caractères accentués ne sont pas les seuls à être codés de cette façon. Le caractère & lui même doit être codé de façon particulière
+sinon comment différencier les cas où on l'utilise pour lui même de ceux où il débute un caractère spécial ? De même les < et > pourraient être
+confondus avec le début où la fin d'une balise.</pre>
+		<u><B> EXEMPLES : </B></u>
+		<pre>é --> é
+ê --> ê
+à --> à
+è --> è
+ù --> ù
+ë --> ë
+É --> É
+â --> â
+Ç --> Ç
+espace insécable -->
+" --> "
+< --> <
+> --> >
+ç --> ç
+& --> &  </pre>
+	</body>
+	
+</html>
+	

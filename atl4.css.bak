@@ -1,0 +1,5 @@
+body {
+	background-image:url(6.jpg);
+	background-repeat: repeat;
+	background-size: 37%;
+	}

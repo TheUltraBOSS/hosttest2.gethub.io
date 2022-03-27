@@ -1,0 +1,25 @@
+body {
+	background-image:url(6.jpg);
+	background-repeat: repeat;
+	background-size: 37%;
+	}
+.Bigtitle {
+	text-align: center;
+	font-size: 50px;
+
+}
+.Part1 {
+	font-size: 30px;
+
+}
+.OrderedlistI {
+	font-size: 60px;
+	color: red;
+}
+.Orderedlist1  {
+	font-size: 40px;
+	color: rgb(9, 255, 0);
+}
+span{
+	color: red;
+}
